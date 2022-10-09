@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practical 11</title>
+</head>
+<body>
+    <h1 align="center">11) Create registration form with all fields and validation</h1>
+    <hr>
+    <br>
+    <div align="center">
+        <form action="" method="post">
+            <table width="40%" border="0">
+            <tr>
+                <td>
+                    <h2 align="center">Registration Form</h2>
+                    <fieldset>
+                        <legend>Student Information</legend><br>
+                        <table border="0">
+                        <tr>
+                            <td><label>First Name:</label><br><br></td>
+                            <td><input type="text" name="fname" id="fname" placeholder="Enter first your name" required><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Last Name:</label><br><br></td>
+                            <td><input type="text" name="lname" id="lname" placeholder="Enter last your name" required><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Phone No.:</label><br><br></td>
+                            <td><input type="number" name="phone" id="phone" placeholder="Enter your phone number" required><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email:</label><br><br></td>
+                            <td><input type="email" name="email" id="email" placeholder="Enter your email" required><br><br></td>
+                        </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Subject Selection</legend><br>
+                        <table border="0">
+                        <tr>
+                            <td><label>Choose Theory Subject</label><br><br></td>
+                            <td><input type="radio" name="theory" id="wd" required> Web Development
+                                <input type="radio" name="theory" id="md" required> Mobile Development
+                                <input type="radio" name="theory" id="sd" required> Software Development
+                            <br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Choose Practical Subject</label><br><br></td>
+                            <td><input type="radio" name="practical" id="js" required> Javascript
+                                <input type="radio" name="practical" id="jv" required> JAVA
+                                <input type="radio" name="practical" id="py" required> Python
+                            <br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Choose Additional Subject</label><br><br></td>
+                            <td><input type="checkbox" name="add" id="hr"> Human Resource
+                                <input type="checkbox" name="add" id="cs"> Communication Skills
+                                <input type="checkbox" name="add" id="mm"> Multimedia
+                            <br><br></td>
+                        </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Address And Fee Payment</legend><br>
+                        <table border="0">
+                        <tr>
+                            <td><label>Address:</label><br><br></td>
+                            <td><textarea type="text" name="address" id="address" rows="4" cols="40" placeholder="Enter your address"required></textarea>
+                            <br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label>Payment:</label><br><br></td>
+                            <td><select>
+                                <option>UPI Payment</option>
+                                <option>Net Banking</option>
+                            </select>
+                            <br><br></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Submit" id="submit"></td>
+                        </tr>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+            </table>
+</body>
+</html>
