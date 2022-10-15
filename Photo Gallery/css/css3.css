@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 15px;
+}
+.header{
+    background-color: darkred;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+.nav{
+    padding: 25px 22px;
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+}
+.bgimg{
+    height: 590px;
+    background-image: url(../images/background_image.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content{
+    background-color: rgb(255, 74, 74);
+}
+.content h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size:xx-large;
+}
+.aboutpic{
+    width: 280px;
+    height: 280px;
+}
+.aboutp{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutp h2{
+    font-size: x-large;
+}
+.aboutp p{
+    font-size: larger;
+}
