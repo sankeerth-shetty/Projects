@@ -19,6 +19,7 @@
     color: aliceblue;
     text-decoration: none;
     font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .bgimg{
     height: 590px;
@@ -48,4 +49,9 @@
 }
 .aboutp p{
     font-size: larger;
+}
+.spphotos{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 }
