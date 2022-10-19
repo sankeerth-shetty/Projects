@@ -59,3 +59,15 @@
     width: 220px;
     height: 220px;
 }
+.imgs img:hover{
+    width: 280px;
+    height: 280px;
+    border: 20px solid rgb(65, 65, 253);
+}
+.footer{
+    background-color: darkred;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
