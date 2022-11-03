@@ -21,7 +21,7 @@ body{
     float: left;
 }
 .nav{
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 16px;
     margin-right: 190px;
 }
@@ -45,6 +45,7 @@ body{
 }
 .nav2 a:hover{
     background-color: rgb(19, 19, 19);
+    border: 20px solid rgb(19, 19, 19);
 }
 .curve{
     margin-top: 600px;
