@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../images/ajays_background.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    background-color: #C5322B;
+    /* flex-direction: column ; */
+    height: 85px;
+    position:fixed;
+    width: 100%;
+}
+.logo{
+    margin-left: 90px;
+    float: left;
+}
+.nav{
+    font-size: 15px;
+    margin-top: 16px;
+    margin-right: 190px;
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.nav2 a{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -37px;
+    margin-right: 90px;
+    border: 20px solid #FF8D00;
+    padding: 0px 11px;
+    float: right;
+    background-color: #FF8D00;
+    border-radius: 40px;
+    text-decoration: none;
+}
+.nav2 a:hover{
+    background-color: rgb(19, 19, 19);
+}
+.curve{
+    margin-top: 600px;
+    /* border-bottom: 20px solid #FFFFFF; */
+}
+.cbox{
+    background-color: #FFFFFF;
+    margin-top: -10px;
+}
