@@ -10,11 +10,12 @@ body{
     background-size: cover;
 }
 .header{
-    background-color: #C5322B;
+    background: #C5322B;
     /* flex-direction: column ; */
     height: 85px;
-    position:fixed;
+    position: fixed;
     width: 100%;
+    opacity: 100%;
 }
 .logo{
     margin-left: 90px;
@@ -56,5 +57,41 @@ body{
 }
 .cbox{
     background-color: #FFFFFF;
-    margin-top: -10px;
+    margin-top: -5px;
+}
+.obgphoto{
+    opacity: 5%;
+    margin-top: -675px;
+    position: relative;
+} 
+.ohistory{
+    background-color: #FFFFFF;
+} 
+.wrapper1{
+    padding-top: 70px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+.container{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 82%;
+    display: flex;
+}
+.row1, .row2{
+    width: 100%;
+    border: 1px solid black;
+}
+.row1{
+    padding: 80px 0px;
+}
+.row1 h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d1d1d;
+    font-size: 42px;
+    text-align: left;
+}
+.row2 img{
+    max-width: 100%;
+    size-adjust: auto;
 }
