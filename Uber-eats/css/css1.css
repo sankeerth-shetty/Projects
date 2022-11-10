@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    margin-top: -55px;
+    /* padding-top: 52%; */
+    background-image: url(../images/uberbg.png);
+    background-size:cover;
+}
+.container{
+    width: 95%;
+    border: 1px solid black;
+    margin-top: 0px;
+    /* padding-bottom: 51%; */
+}
+.menu{
+    width: 100%;
+    margin-top: 75px;
+    border: 1px solid black;
+    padding-bottom: 48%;
+}
+.navmenu{
+    border: 1px solid black;
+}
