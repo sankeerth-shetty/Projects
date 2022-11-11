@@ -51,7 +51,7 @@
     border: 1px solid black;
     border-radius: 50px;
     margin-right: 1px;
-    margin-top: -15px;
+    margin-top: -12px;
 }
 .navmenu .signup:hover{
     border-color: #333333;
@@ -67,8 +67,8 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 50px;
-    margin-right: -415px;
-    margin-top: -15px;
+    margin-right: -420px;
+    margin-top: -12px;
 }
 .navmenu .login:hover{
     border-color: #CCCCCC;
