@@ -138,3 +138,163 @@
 .silink a{
     color: black;
 }
+.content1{
+    margin-top: 80px;
+    /* border: 1px solid black; */
+}
+.threebox{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.lag{
+    width: 31.5%;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.lag .fye{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+}
+.lag .cba{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17.5px;
+    text-decoration: underline;
+    color: #1d1c1c;
+    margin-top: 8px;
+}
+.cog{
+    width: 31.5%;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.cog .fye2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+}
+.cog .cba2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17.5px;
+    text-decoration: underline;
+    color: #1d1c1c;
+    margin-top: 8px;
+}
+.cyg{
+    width: 31.5%;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.cyg .fye3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+}
+.cyg .cba3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17.5px;
+    text-decoration: underline;
+    color: #1d1c1c;
+    margin-top: 8px;
+}
+.content2{
+    margin-top: 22px;
+    /* border: 1px solid black; */
+    width: 95%;
+}
+.content2 .heading1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content2 .city1{
+    /* border: 1px solid black; */
+    width: 50%;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content2 .view1{
+    width: 50%;
+    /* border: 1px solid black; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17.5px;
+    text-decoration: underline;
+    color: black;
+    align-self: flex-end;
+    text-align: right;
+}
+.content2 .maps{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cities, .countries{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+.cities ul, .countries ul{
+    list-style: none;
+    line-height: 50px;
+}
+.cities ul a, .countries ul a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.list1{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.list2{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.list3{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.list4{
+    width: 25%;
+    /* border: 1px solid black; */
+}
+.content2 .heading2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.content2 .country1{
+    /* border: 1px solid black; */
+    width: 50%;
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content2 .view2{
+    width: 50%;
+    /* border: 1px solid black; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17.5px;
+    text-decoration: underline;
+    color: black;
+    align-self: flex-end;
+    text-align: right;
+}
+.hrcolor{
+    border: 1px solid #ececec;
+    margin-bottom: 40px;
+}
