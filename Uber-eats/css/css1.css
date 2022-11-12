@@ -122,7 +122,7 @@
     font-size: larger;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-left: -380px;
     color: white;
     text-decoration: none;
@@ -297,4 +297,129 @@
 .hrcolor{
     border: 1px solid #ececec;
     margin-bottom: 40px;
+}
+.content3{
+    width: 95%;
+    /* border: 1px solid black; */
+}
+.ubcontent{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.ubphotos{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.ublist1{
+    width: 25%;
+    line-height: 40px;
+    font-size: 16.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ublist1 a{
+    text-decoration: none;
+    color: black;
+}
+.ublist1 a:hover{
+    text-decoration: underline;
+}
+.ublist2{
+    width: 25%;
+    line-height: 40px;
+    font-size: 16.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ublist2 a{
+    text-decoration: none;
+    color: black;
+}
+.ublist2 a:hover{
+    text-decoration: underline;
+}
+.apps{
+    /* width: 100%; */
+    /* display: flex; */
+    /* border: 1px solid black; */
+    margin-top: 160px;
+    /* justify-content: space-between; */
+}
+.appstore{
+    /* width: 100%; */
+    height: 40px;
+    /* border: 1px solid black; */
+}
+.googlep{
+    /* width: 100%; */
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-left: 12px;
+}
+.hrcolor2{
+    width: 96%;
+    border-top: #CCCCCC;
+}
+.socialm{
+    width: 95%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap: 620px;
+    margin-bottom: 10px;
+}
+.socialm a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.smts1{
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+.smts2{
+    margin-left: auto;
+    /* border: 1px solid black; */
+}
+.smts2 a:hover{
+    text-decoration: underline;
+}
+.smt1, .smt2, .smt3{
+    margin-right: 20px;
+}
+.smt4, .smt5, .smt6, .smt7{
+    margin-left: 40px;
+}
+.copyright{
+    width: 95%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap: 445px;
+    margin-bottom: 90px;
+}
+.cpr2{
+    text-align: right;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.p1, .p2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.p1 a{
+    text-decoration: none;
+    color: black;
+}
+.p1 a:hover{
+    text-decoration: underline;
+}
+.p2{
+    margin-left: 40px;
 }
