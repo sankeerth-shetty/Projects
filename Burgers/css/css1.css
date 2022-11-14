@@ -476,46 +476,60 @@ div[class*=onbutt] a{
 }
 .sec8{
     background-color: #F6EEDF;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .s8content{
     padding-top: 300px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding-bottom: 300px;
 }
 .s8email{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
 }
 .s8email h1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     color: #F64B3C;
     padding-bottom: 30px;
 }
 .s8email p{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19.5px;
     color: #F64B3C;
     padding-bottom: 50px;
 }
+.emailnbutt{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-left: 355px;
+    margin-right: 355px;
+}
 .emailbox{
-    border: 1px solid blue;
-    margin: 0px 370px;
+    /* border: 1px solid blue; */
+    margin: 0px 0px;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
+    background-color: white;
 }
 .emailbox .email{
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
+    margin-left: 20px;
+    margin-right: 10px;
     /* padding-right: 260px; */
-    padding: 10px 220px 10px 30px;
+    padding: 10px 240px 10px 10px;
     font-size: 15px;
+    border-color: transparent;
 }
-.emailbox .subscribes{
-    border: 1px solid blue;
-    /* padding-left: 20px; */
-    padding: 15px 28px 15px 28px;
-    border-radius: 0px 10px 10px 0px;
+.subscribes{
+    /* border: 1px solid blue; */
+    padding: 17px 28px 13px 28px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 550; */
+    text-decoration: none;
+    background-color: #F64B3C;
+    color: white;
 }
