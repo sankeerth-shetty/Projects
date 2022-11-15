@@ -31,6 +31,9 @@
     font-weight: 550;
     font-stretch:extra-expanded;
 }
+.nav a:hover{
+    color: yellow;
+}
 .na2{
     margin-left: auto;
 }
@@ -67,6 +70,11 @@
     font-weight: 550;
     text-decoration: none;
     border-radius: 50px;
+}
+.discount a:hover{
+    color: black;
+    border-color: yellow;
+    background-color: yellow;
 }
 .sec2{
     /* border: 1px solid blue; */
@@ -209,6 +217,11 @@
     text-decoration: none;
     border-radius: 50px;
 }
+.bestburger .bb2 a:hover{
+    color: white;
+    border-color: #222222;
+    background-color: #222222;
+}
 .s3pace{
     padding-bottom: 10px;
 }
@@ -260,6 +273,10 @@
     font-weight: 550;
     text-decoration: none;
     border-radius: 50px;
+}
+.bestburger2 .bb3 a:hover{
+    border-color: #222222;
+    background-color: #222222;
 }
 .ldood1{
     margin-top: -615px;
@@ -449,6 +466,10 @@ div[class*=onbutt] a{
     font-weight: 550;
     border-radius: 50px;
 }
+div[class*=onbutt] a:hover{
+    border-color: #222222;
+    background-color: #222222;
+}
 .sec7{
     background-image: url(../images/redimage.png);
     background-size: cover;
@@ -479,9 +500,9 @@ div[class*=onbutt] a{
     /* border: 1px solid blue; */
 }
 .s8content{
-    padding-top: 300px;
+    padding-top: 220px;
     /* border: 1px solid blue; */
-    padding-bottom: 300px;
+    padding-bottom: 220px;
 }
 .s8email{
     /* border: 1px solid blue; */
@@ -532,4 +553,183 @@ div[class*=onbutt] a{
     text-decoration: none;
     background-color: #F64B3C;
     color: white;
+}
+.subscribes:hover{
+    border-color: #222222;
+    background-color: #222222;
+}
+.bgburger{
+    margin-top: -625px;
+    margin-left: 1030px;
+    position: absolute;
+    width: 180px;
+}
+.LMush{
+    margin-top: -360px;
+    margin-left: 115px;
+    position: absolute;
+    width: 70px;
+}
+.LLeaf{
+    margin-top: -600px;
+    margin-left: 255px;
+    position: absolute;
+    width: 90px;
+}
+.LFries{
+    margin-top: -195px;
+    margin-left: 160px;
+    position: absolute;
+    width: 130px;
+}
+.LCap{
+    margin-top: -160px;
+    margin-left: 1030px;
+    position: absolute;
+    width: 85px;
+}
+.C2Cap{
+    margin-top: -623px;
+    margin-left: 625px;
+    position: absolute;
+    width: 85px;
+}
+.OLeaf{
+    margin-top: -140px;
+    margin-left: 610px;
+    position: absolute;
+    width: 90px;
+}
+.footer{
+    background-color: #222222;
+    padding: 200px 50px 240px;
+}
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+.Title1{
+    width: 55%;
+    /* border: 1px solid blue; */
+    margin-right: 90px;
+}
+.Title1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.Title1 p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+.social1 a{
+    text-decoration: none;
+    /* border: 1px solid blue; */
+}
+.social1 .instu{
+    padding: 8px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.social1 .instu:hover{
+    background-color: pink;
+}
+.social1 .faceu:hover{
+    background-color: rgb(129, 129, 255);
+}
+.social1 .twitu:hover{
+    background-color: cyan;
+}
+.social1 .whatu:hover{
+    background-color: rgb(38, 209, 38);
+}
+.social1 .faceu{
+    padding: 8px 12px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.social1 .twitu{
+    padding: 8px 9px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.social1 .whatu{
+    padding: 8px 10px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.About1{
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.About1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.About1 ul{
+    list-style: none;
+}
+.About1 ul a{
+    text-decoration: none;
+    line-height: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.About1 ul a:hover{
+    text-decoration: underline;
+}
+.Services1{
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.Services1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.Services1 ul{
+    list-style: none;
+}
+.Services1 ul a{
+    text-decoration: none;
+    line-height: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.Services1 ul a:hover{
+    text-decoration: underline;
+}
+.Other1{
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.Other1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+}
+.Other1 ul{
+    list-style: none;
+}
+.Other1 ul a{
+    text-decoration: none;
+    line-height: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.Other1 ul a:hover{
+    text-decoration: underline;
 }
