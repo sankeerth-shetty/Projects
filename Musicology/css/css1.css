@@ -6,7 +6,7 @@
 .header{
     background-image: url(../images/bgphoto.png);
     background-size: cover;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
 }
 .nav{
     background-color: #2C2C2C;
@@ -40,7 +40,7 @@
 }
 .headcontent{
     /* border: 1px solid blue; */
-    margin: 270px 700px 0px 80px;
+    margin: 270px 700px 20px 80px;
 }
 .headcontent h1{
     font-size: 82px;
