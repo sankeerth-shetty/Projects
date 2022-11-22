@@ -6,7 +6,9 @@
 .header{
     background-image: url(../images/bgphoto.png);
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 52px;
+    position: relative;
+    z-index: 500;
 }
 .nav{
     background-color: #2C2C2C;
@@ -22,17 +24,17 @@
     padding-right: 20px;
 }
 .navb li{
-    padding-right: 48px;
+    padding-right: 52px;
 }
 .navb li a{
     text-decoration: none;
-    font-family:monospace;
-    font-size: 20px;
+    font-family: 'Oswald';
+    font-size: 18px;
     color: white;
 }
 .logo{
     padding: 15px 0px 10px 50px;
-    width: 80%;
+    width: 95%;
 }
 .searchb{
     padding-right: 50px;
@@ -40,17 +42,19 @@
 }
 .headcontent{
     /* border: 1px solid blue; */
-    margin: 270px 700px 20px 80px;
+    margin: 240px 655px 20px 80px;
 }
 .headcontent h1{
-    font-size: 82px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 110px;
+    font-family: 'Oswald';
+    font-weight: 400;
     color: white;
     padding-bottom: 20px;
 }
 .headcontent p{
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     color: white;
     padding-bottom: 50px;
 }
@@ -59,7 +63,76 @@
     text-decoration: none;
     font-size: 24px;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Oswald';
     padding: 10px 75px;
     background-color: #FF630C;
+}
+.dancetour{
+    background-color: #FF630C;
+    padding-bottom: 80px;
+}
+.dancetour .dth1{
+    padding-top: 80px;
+    padding-bottom: 35px;
+    font-family: 'Oswald';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 400;
+}
+.dancetour .dtp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 300;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+    /* border: 1px solid blue; */
+    padding: 0px 22px;
+}
+.cards1{
+    width: 25%;
+    /* border: 1px solid yellow; */
+    background-color: #2C2C2C;
+    z-index: 200;
+}
+.cd1 img{
+    width: 100%;
+    /* transform-origin: bottom center; */
+}
+.cd1 img:hover{
+    transform: perspective(300px) rotate(180deg);
+}
+.cd11{
+    padding: 25px 10px;
+}
+.cd11 h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald';
+    color: white;
+    padding-bottom: 8px;
+}
+.cd11 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.bgshape{
+    width: 100%;
+    position: absolute;
+    top: 370px;
+    right: 512px;
+    z-index: 100;
+}
+.prh1{
+    background-color: #2C2C2C;
 }
