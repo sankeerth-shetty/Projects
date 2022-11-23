@@ -72,6 +72,8 @@
 .dancetour{
     background-color: #FF630C;
     padding-bottom: 80px;
+    position: relative;
+    z-index: 100;
 }
 .dancetour .dth1{
     padding-top: 80px;
@@ -92,6 +94,9 @@
     position: relative;
     z-index: 300;
 }
+.col-25{
+    width: 25%;
+}
 .cards{
     display: flex;
     justify-content: space-evenly;
@@ -100,7 +105,6 @@
     padding: 0px 22px;
 }
 .cards1{
-    width: 25%;
     /* border: 1px solid yellow; */
     background-color: #2C2C2C;
     z-index: 200;
@@ -131,13 +135,15 @@
 .bgshape{
     width: 100%;
     position: absolute;
-    top: 348px;
+    bottom: 138px;
     right: 512px;
     z-index: 100;
 }
 .pricing{
     background-color: #2C2C2C;
-    padding-bottom: 80px;
+    position: relative;
+    padding-bottom: 100px;
+    z-index: 90;
 }
 .pricing .prh1{
     padding-top: 80px;
@@ -154,24 +160,25 @@
     font-size: 25px;
     color: white;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
     position: relative;
     z-index: 300;
 }
 .prcards{
     display: flex;
     justify-content: space-evenly;
-    padding: 0px 20px;
+    padding: 0px 25px;
+    z-index: 85;
     /* border: 1px solid blue; */
     
 }
 .prcards1{
-    width: 25%;
     background-color: #FF630C;
     padding-top: 55px;
     /* border: 1px solid blue; */
     border-radius: 10px;
     padding-bottom: 1px;
+    z-index: 82;
 }
 .primgs{
     /* border: 1px solid blue; */
@@ -180,7 +187,7 @@
     margin-right: auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 .primgs img:hover{
     animation-name: Badge;
@@ -215,6 +222,107 @@
     text-decoration: none;
     padding: 12px 105px;
     border-radius: 5px;
+}
+.amazdsec{
+    width: 100%;
+    position: relative;
+    /* z-index: 79; */
+    overflow: hidden;
+    /* border: 1px solid blueviolet; */
+}
+.img1wc{
+    display: flex;
+    justify-content: space-between;
+}
+.img1bd{
+    width: 50%;
+    /* border: 1px solid #2C2C2C; */
+    background-image: url(../images/blackdance.png);
+    background-size: cover;
+}
+.img1bd:hover{
+    transform: rotateY(180deg);
+}
+.img2bd{
+    width: 50%;
+    /* border: 1px solid red; */
+    background-image: url(../images/whitedance.png);
+    background-size: cover;
+    position: relative;
+}
+.img2bd:hover{
+    transform: rotateY(180deg);
+}
+.img1con{
+    width: 50%;
+    background-color: #FF630C;
+    /* border: 1px solid red; */
+}
+.amzcon{
+    /* border: 1px solid green; */
+    margin: 100px 55px;
+    padding: 100px 0px;
+    align-items: center;
+}
+.amzcon h2{
+    font-family: 'Oswald';
+    font-size: 68px;
+    color: white;
+    padding-bottom: 35px;
+    position: relative;
+    z-index: 100;
+}
+.amzcon p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 100;
+}
+.amzbutton{
+    margin-bottom: 50px;
+}
+.amspace{
+    margin: 50px 0px;
+    padding: 30px 0px;
+    /* border: 1px solid purple; */
+}
+.amzcon a{
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #2C2C2C;
+    background-color: #2C2C2C;
+    padding: 10px 90px;
+    border-radius: 5px;
+}
+.shape2{
+    position: absolute;
+    bottom: 152px;
+    right: 720px;
+    z-index: 80;
+    /* border: 5px solid red; */
+}
+.shape3{
+    position: absolute;
+    top: 340px;
+    left: 675px;
+    z-index: 81;
+    transform: rotate(195deg);
+    width: 60%;
+    /* border: 5px solid red; */
+}
+.shape4{
+    position: absolute;
+    top: 450px;
+    left: 825px;
+    z-index: 81;
+    width: 50%;
+}
+.overflows{
+    overflow: hidden;
 }
 @keyframes Badge{
     100%{ transform: rotate(360deg);}
