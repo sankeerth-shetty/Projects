@@ -41,10 +41,12 @@
     color: white;
 }
 .headcontent{
+    width: 45%;
     /* border: 1px solid blue; */
-    margin: 240px 655px 20px 80px;
+    margin: 120px 0px 20px 80px;
 }
 .headcontent h1{
+    padding-top: 100px;
     font-size: 110px;
     font-family: 'Oswald';
     font-weight: 400;
@@ -108,7 +110,7 @@
     /* transform-origin: bottom center; */
 }
 .cd1 img:hover{
-    transform: perspective(300px) rotate(180deg);
+    transform: rotateY(180deg);
 }
 .cd11{
     padding: 25px 10px;
@@ -129,10 +131,91 @@
 .bgshape{
     width: 100%;
     position: absolute;
-    top: 370px;
+    top: 348px;
     right: 512px;
     z-index: 100;
 }
-.prh1{
+.pricing{
     background-color: #2C2C2C;
+    padding-bottom: 80px;
+}
+.pricing .prh1{
+    padding-top: 80px;
+    padding-bottom: 35px;
+    font-family: 'Oswald';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 400;
+}
+.pricing .prp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 300;
+}
+.prcards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    /* border: 1px solid blue; */
+    
+}
+.prcards1{
+    width: 25%;
+    background-color: #FF630C;
+    padding-top: 55px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+.primgs{
+    /* border: 1px solid blue; */
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+.primgs img:hover{
+    animation-name: Badge;
+    animation-duration: 2.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.prcont h3{
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 37px;
+    color: white;
+    padding-bottom: 20px;
+}
+.prcont p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.prcont .prbutton{
+    margin: 30px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+}
+.prbutton .prba{
+    font-size: 18px;
+    font-family: 'Oswald';
+    color: white;
+    border: 1px solid #2C2C2C;
+    background-color: #2C2C2C;
+    text-decoration: none;
+    padding: 12px 105px;
+    border-radius: 5px;
+}
+@keyframes Badge{
+    100%{ transform: rotate(360deg);}
 }
