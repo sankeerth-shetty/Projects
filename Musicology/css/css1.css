@@ -32,6 +32,9 @@
     font-size: 18px;
     color: white;
 }
+.nav li a:hover{
+    color: #FF630C;
+}
 .logo{
     padding: 15px 0px 10px 50px;
     width: 95%;
@@ -39,6 +42,9 @@
 .searchb{
     padding-right: 50px;
     color: white;
+}
+.searchb:hover{
+    color: #FF630C;
 }
 .headcontent{
     width: 45%;
@@ -68,6 +74,9 @@
     font-family: 'Oswald';
     padding: 10px 75px;
     background-color: #FF630C;
+}
+.headcontent a:hover{
+    background-color: red;
 }
 .dancetour{
     background-color: #FF630C;
@@ -223,6 +232,10 @@
     padding: 12px 105px;
     border-radius: 5px;
 }
+.prbutton .prba:hover{
+    border: 1px solid darkblue;
+    background-color: darkblue;
+}
 .amazdsec{
     width: 100%;
     position: relative;
@@ -299,6 +312,10 @@
     background-color: #2C2C2C;
     padding: 10px 90px;
     border-radius: 5px;
+}
+.amzcon a:hover{
+    border: 1px solid red;
+    background-color: red;
 }
 .shape2{
     position: absolute;
@@ -467,6 +484,9 @@
     color: white;
     text-decoration: none;
     z-index: 100;
+}
+.subs-button:hover{
+    background-color: darkblue;
 }
 .footer{
     background-color: #222222;
