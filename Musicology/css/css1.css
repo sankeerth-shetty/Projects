@@ -282,6 +282,8 @@
 }
 .amzbutton{
     margin-bottom: 50px;
+    position: relative;
+    z-index: 100;
 }
 .amspace{
     margin: 50px 0px;
@@ -324,6 +326,326 @@
 .overflows{
     overflow: hidden;
 }
+.statistics{
+    background-color: #2C2C2C;
+    position: relative;
+    /* border: 1px solid red; */
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+.statistics h1{
+    text-align: center;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 60px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.statistics p{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-bottom: 100px;
+}
+.stats-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    margin: 40px 0px 100px 0px;
+}
+.stats-box{
+    /* border: 1px solid red; */
+}
+.stats-box h4{
+    text-align: center;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 50px;
+}
+.stats-box p{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+}
+.shape5{
+    position: absolute;
+    top: 485px;
+    right: 810px;
+    z-index: 81;
+    width: 50%;
+    transform: rotateY(180deg);
+}
+.herbert-simon{
+    background-image: url(../images/whitedancer2.png);
+    background-size: cover;
+    position: relative;
+    /* overflow: hidden; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hb-bg{
+    margin: 20px 100px;
+    padding: 30px 100px;
+    /* border: 1px solid blue; */
+}
+.hs-para p{
+    margin: 100px 0px 0px 0px;
+    font-family: 'Nunito',sans-serif;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 100px 100px 50px 100px;
+}
+.hb-bg h2{
+    font-size: 48px;
+    font-family: 'Oswald';
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 70px;
+}
+.subscribe{
+    background-color: #FF630C;
+    padding: 0px 100px 45px 100px;
+    position: relative;
+    overflow: hidden;
+}
+.subscribe .subh1{
+    padding-top: 85px;
+    padding-bottom: 35px;
+    font-family: 'Oswald';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+.subscribe .subp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 100;
+}
+.sub-container{
+    /* border: 1px solid blue; */
+    margin: 0px 20px;
+    padding: 0px 100px 80px 100px;
+}
+.sub-em-container{
+    margin: 0px 100px auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+.subs-email{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 6px 20px;
+    background-color: white;
+    z-index: 100;
+}
+.email{
+    padding: 7px 100px 5px 5px;
+    font-size: 18px;
+    border-color: transparent;
+}
+.subs-button{
+    /* border: 1px solid red; */
+    width: 35%;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 18px;
+    font-family: 'Oswald';
+    background-color: #2C2C2C;
+    color: white;
+    text-decoration: none;
+    z-index: 100;
+}
+.footer{
+    background-color: #222222;
+    padding: 100px 50px 100px;
+}
+.footer1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+.Title1{
+    width: 55%;
+    /* border: 1px solid blue; */
+    margin-right: 90px;
+}
+.Title1 h3{
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: white;
+}
+.Title1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 90px;
+    /* border: 1px solid blue; */
+}
+.social1{
+    padding-top: 8px;
+}
+.social1 a{
+    text-decoration: none;
+    /* border: 1px solid blue; */
+}
+.social1 .instu{
+    padding: 8px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.social1 .instu:hover{
+    background-color: pink;
+}
+.social1 .faceu:hover{
+    background-color: rgb(129, 129, 255);
+}
+.social1 .twitu:hover{
+    background-color: cyan;
+}
+.social1 .whatu:hover{
+    background-color: rgb(38, 209, 38);
+}
+.social1 .faceu{
+    padding: 8px 12px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.social1 .twitu{
+    padding: 8px 9px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.social1 .whatu{
+    padding: 8px 10px;
+    background-color: white;
+    color: #222222;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.About1{
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.About1 h3{
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: white;
+}
+.About1 ul{
+    list-style: none;
+}
+.About1 ul li{
+    padding-bottom: 15px;
+}
+.About1 ul a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.About1 ul a:hover{
+    text-decoration: underline;
+}
+.Services1{
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.Services1 h3{
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: white;
+}
+.Services1 ul{
+    list-style: none;
+}
+.Services1 ul li{
+    padding-bottom: 15px;
+}
+.Services1 ul a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.Services1 ul a:hover{
+    text-decoration: underline;
+}
+.Other1{
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.Other1 h3{
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: white;
+}
+.Other1 ul{
+    list-style: none;
+}
+.Other1 ul li{
+    padding-bottom: 15px;
+}
+.Other1 ul a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.Other1 ul a:hover{
+    text-decoration: underline;
+}
+.shape6{
+    position: absolute;
+    bottom: -110px;
+    right: 710px;
+    z-index: 80;
+    width: 70%;
+    transform: rotate(320deg);
+}
+.shape6:hover{
+    animation-name: Shape6;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.shape7{
+    position: absolute;
+    bottom: -110px;
+    left: 700px;
+    z-index: 80;
+    width: 70%;
+    transform: rotate(140deg);
+}
+.shape7:hover{
+    animation-name: Shape7;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
 @keyframes Badge{
     100%{ transform: rotate(360deg);}
+}
+@keyframes Shape6{
+    0%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
+@keyframes Shape7{
+    0%{opacity: 100%;}
+    100%{opacity: 0%;}
 }
