@@ -1,0 +1,53 @@
+@media only screen and (min-width: 320px) and (max-width: 420px){
+    body{
+        width: 100%;
+    }
+    .header{
+        background-image: url(../images/bgphoto.png);
+        background-size: cover;
+        padding-bottom: 52px;
+        position: relative;
+        z-index: 500;
+        overflow-x: hidden;
+    }
+    .nav{
+        background-color: #2C2C2C;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid blue; */
+        align-items: center;
+        width: 100%;
+    }
+    .navb{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-right: 20px;
+    }
+    .navb li{
+        padding-right: 5px;
+        padding-bottom: 3px;
+    }
+    .navb li a{
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-size: 5px;
+        color: white;
+        text-align: center;
+    }
+    .nav li a:hover{
+        color: #FF630C;
+    }
+    .logo{
+        padding: 13px 0px 8px 10px;
+        width: 55%;
+    }
+    .searchb{
+        font-size: 10px;
+        padding-right: 10px;
+        color: white;
+    }
+    .searchb:hover{
+        color: #FF630C;
+    }
+}

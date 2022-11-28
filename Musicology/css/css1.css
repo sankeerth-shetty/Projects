@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-right: 20px;
+    padding-right: 5px;
 }
 .navb li{
     padding-right: 52px;
@@ -42,6 +42,7 @@
 .searchb{
     padding-right: 50px;
     color: white;
+    font-size: 23px;
 }
 .searchb:hover{
     color: #FF630C;
