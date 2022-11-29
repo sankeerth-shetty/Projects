@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body{
+    overflow: hidden;
+}
 .header{
     background-image: url(../images/bgphoto.png);
     background-size: cover;
@@ -46,6 +49,9 @@
 }
 .searchb:hover{
     color: #FF630C;
+}
+.menubarb{
+    display: none;
 }
 .headcontent{
     width: 45%;

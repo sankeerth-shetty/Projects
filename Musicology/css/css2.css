@@ -4,8 +4,11 @@
     }
     .header{
         background-image: url(../images/bgphoto.png);
-        background-size: cover;
-        padding-bottom: 52px;
+        background-origin: padding-box;
+        background-size: 26rem;
+        background-position: 0px 55px;
+        /* background-repeat: no-repeat; */
+        padding-bottom: 2px;
         position: relative;
         z-index: 500;
         overflow-x: hidden;
@@ -27,6 +30,7 @@
     .navb li{
         padding-right: 5px;
         padding-bottom: 3px;
+        display: none;
     }
     .navb li a{
         text-decoration: none;
@@ -34,20 +38,65 @@
         font-size: 5px;
         color: white;
         text-align: center;
+        display: none;
     }
     .nav li a:hover{
         color: #FF630C;
+        display: none;
     }
     .logo{
         padding: 13px 0px 8px 10px;
         width: 55%;
     }
     .searchb{
-        font-size: 10px;
+        font-size: 20px;
         padding-right: 10px;
         color: white;
     }
     .searchb:hover{
         color: #FF630C;
+    }
+    .menubarb{
+        display: block;
+        font-size: 20px;
+        padding-left: 60px;
+        color: white;
+    }
+    .menubarb:hover{
+        color: #FF630C;
+    }
+    .headcontent{
+        width: 75%;
+        /* border: 1px solid blue; */
+        margin: 2px 0px 20px 18px;
+    }
+    .headcontent h1{
+        padding-top: 8px;
+        font-size: 32px;
+        font-family: 'Oswald';
+        font-weight: 400;
+        color: white;
+        text-shadow: 0px 0px 8px darkblue;
+        padding-bottom: 5px;
+    }
+    .headcontent p{
+        font-size: 15px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        text-shadow: 0px 0px 5px red;
+        color: white;
+        padding-bottom: 22px;
+    }
+    .headcontent a{
+        /* border: 1px solid blue; */
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        font-family: 'Oswald';
+        padding: 8px 20px;
+        background-color: #FF630C;
+    }
+    .headcontent a:hover{
+        background-color: red;
     }
 }
