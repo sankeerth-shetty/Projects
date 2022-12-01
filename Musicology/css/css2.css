@@ -7,9 +7,9 @@
         background-origin: padding-box;
         /* background-size: 25rem; */
         background-size: cover;
-        background-position: 50% 100%;
+        background-position: 55% 100%;
         /* background-repeat: no-repeat; */
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         position: relative;
         z-index: 500;
         overflow-x: hidden;
@@ -69,10 +69,10 @@
     .headcontent{
         width: 75%;
         /* border: 1px solid blue; */
-        margin: 15px 0px 35px 18px;
+        margin: 15px 0px 55px 18px;
     }
     .headcontent h1{
-        padding-top: 10px;
+        padding-top: 30px;
         font-size: 32px;
         font-family: 'Oswald';
         font-weight: 400;
@@ -86,7 +86,7 @@
         font-weight: 400;
         text-shadow: 0px 0px 5px red;
         color: white;
-        padding-bottom: 28px;
+        padding-bottom: 33px;
     }
     .headcontent a{
         /* border: 1px solid blue; */
@@ -263,5 +263,102 @@
     .prbutton .prba:hover{
         border: 1px solid darkblue;
         background-color: darkblue;
+    }
+    .amazdsec{
+        width: 100%;
+        position: relative;
+        /* z-index: 79; */
+        overflow: hidden;
+        /* border: 1px solid blueviolet; */
+    }
+    .img1wc{
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .img1bd{
+        width: 100%;
+        background-origin: padding-box;
+        /* background-position: 10% 50%; */
+        padding-bottom: 50rem;
+        /* border: 1px solid #2C2C2C; */
+        background-image: url(../images/blackdance.png);
+        background-size: 25rem;
+        background-repeat: no-repeat;
+    }
+    /* .img1bd:hover{
+        transform: rotateY(180deg);
+    } */
+    .img2bd{
+        width: 100%;
+        /* border: 1px solid red; */
+        background-image: url(../images/whitedance.png);
+        background-size: cover;
+        position: relative;
+    }
+    .img2bd:hover{
+        transform: rotateY(180deg);
+    }
+    .img1con{
+        width: 100%;
+        background-color: #FF630C;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 420px;
+        margin-bottom: 80px;
+    }
+    .amzcon{
+        /* border: 1px solid green; */
+        margin: 0px 30px;
+        padding: 0px 0px;
+        align-items: center;
+    }
+    .amzcon h2{
+        font-family: 'Oswald';
+        font-size: 32px;
+        color: white;
+        padding-bottom: 20px;
+        position: relative;
+        z-index: 100;
+        text-shadow: 0px 0px 8px darkblue;
+    }
+    .amzcon p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        color: white;
+        padding-bottom: 40px;
+        position: relative;
+        z-index: 100;
+        text-shadow: 0px 0px 5px red;
+    }
+    .amzbutton{
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 100;
+    }
+    .amspace{
+        margin: 5px 0px;
+        padding: 30px 0px;
+        /* border: 1px solid purple; */
+    }
+    .amzcon a{
+        font-family: 'Oswald';
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        border: 1px solid #2C2C2C;
+        background-color: #2C2C2C;
+        padding: 10px 30px;
+        border-radius: 5px;
+    }
+    .amzcon a:hover{
+        border: 1px solid red;
+        background-color: red;
+    }
+    .shape2{
+        position: absolute;
+        bottom: 152px;
+        right: 720px;
+        z-index: 80;
+        /* border: 5px solid red; */
     }
 }
