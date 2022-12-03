@@ -7,8 +7,9 @@
     overflow: hidden;
 }
 .header{
-    background-image: url(../images/bgphoto.png);
-    background-size: cover;
+    background: url(../images/bgphoto.png) no-repeat center center/cover;
+    /* background-image: url(../images/bgphoto.png); */
+    /* background-size: cover; */
     padding-bottom: 52px;
     position: relative;
     z-index: 500;
