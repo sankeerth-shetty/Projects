@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background: url(../images/background1.jpg) no-repeat center center/cover ;
+
+}
+.header-wrapper{
+    background-color: rgba(0, 0, 0, .7);
+    padding-bottom: 12px;
+}
+
+.logo{
+    width: 33%;
+    padding: 28px 28px 5px 28px;
+}
+.col-50{
+    width: 50%;
+}
+
+.form-container{
+    margin: 0 auto;
+    width: 33%;
+}
+.form-tag{
+    padding: 70px 60px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+}
+.form-h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.box-wp{
+    margin-top: 18px;
+    border: 2px solid #333333;
+    background-color: #333333;
+    border-radius: 5px;
+}
+.box-text{
+    padding: 15px 100px 15px 20px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #333333;
+}
+.box-text::placeholder{
+    font-size: 16px;
+    color: gray;
+}
+.sub-wp{
+    margin-top: 55px;
+    justify-content: center;
+}
+.submit{
+    padding: 15px 137px;
+    border: 1px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #E50914;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+}
+.remname{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-left: 5px;
+    font-size: 13px;
+}
+.nhelp{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nhelp:hover{
+    text-decoration: underline;
+}
+.text-wp{
+    display: flex;
+    justify-content: space-between;
+}
+.new-netflix{
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-bottom: 15px;
+}
+.signup{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+.end-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+.learn-more{
+    text-decoration: none;
+}
