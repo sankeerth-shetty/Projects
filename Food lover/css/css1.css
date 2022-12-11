@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Aachen BT';
+    src: url(../css/Aachen\ BT.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aachen BT";
+}
+body{
+    overflow-x: hidden;
+}
+#header{
+    background: url(../images/background-img.png) no-repeat;
+    background-size: cover;
+}
+.header-wrapper{
+    background-color: rgba(40,40,45,0.9490196078431372);
+}
+.container{
+    /* border: 1px solid red; */
+    width: 89%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0px;
+    align-items: center;
+}
+.logo{
+    /* border: 1px solid yellow; */
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.menus ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid yellow; */
+}
+.menus ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 42px;
+}
+.col-33{
+    width: 33.33%;
+    /* border: 1px solid blue; */
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+    padding: 70px 0px 90px 0px;
+}
+.col-50{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+.food1{
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px 0px;
+}
+.header-content{
+    /* border: 1px solid yellow; */
+    width: 80%;
+}
+.header-content h1{
+    font-size: 65px;
+    letter-spacing: 1px;
+    color: #FA9100;
+}
+.header-content p{
+    padding: 30px 0px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+.header-content a{
+    border: 1px solid #FA9100;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 20px 35px;
+    text-decoration: none;
+    color: rgb(40, 40, 45);
+    background-color: #FA9100;
+}
+#sections-bg{
+    background-color: #16171E;
+}
+.s1-wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    padding: 100px 0px;
+    align-items: center;
+}
+.food2{
+    width: 78%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: 45px;
+    display: block;
+}
+.headings-content{
+    font-size: 48px;
+    color: white;
+}
+.para-content{
+    padding-top: 30px;
+    font-size: 31px;
+    color: white;
+    width: 80%;
+    /* border: 1px solid yellow; */
+}
+.s2-wrapper{
+    /* border: 2px solid yellow; */
+    margin: 100px 0px 0px 0px;
+    padding: 100px 0px 100px 100px;
+    z-index: 10;
+    position: relative;
+}
+.s2-content{
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.s2-content .para-content{
+    /* border: 1px solid red; */
+    width: 85%;
+}
+.big-space, .more-space{
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+.shape-img{
+    position: absolute;
+    top: 1600px;
+    z-index: 0;
+    left: -300px;
+}
+.food3{
+    width: 50%;
+    position: absolute;
+    top: 1600px;
+    right: -300px;
+}
+.food4{
+    width: 65%;
+    position: absolute;
+    top: 2280px;
+    right: -50px;
+}
+.food5{
+    /* width: 40%; */
+    position: absolute;
+    top: 2660px;
+    left: -150px;
+}
+.s3-wrapper{
+    padding: 100px 0px;
+    /* border: 1px solid red; */
+}
+.s3-heading{
+    padding: 95px 0px;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+.img-row{
+    width: 90%;
+}
+.images-row{
+    margin: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* border: 1px solid orange; */
+}
+#section4{
+    background: url(../images/food-bg.png) no-repeat center center/cover;
+}
+.s4-wrapper{
+    padding: 100px 100px;
+    /* border: 2px solid red; */
+}
+.s4-content{
+    margin: 0px 100px;
+    padding: 100px 0px;
+    /* border: 2px solid green; */
+}
+.s4-con-wrapper{
+    border: 8px solid #D67C00;
+    text-align: center;
+    padding: 80px 80px;
+    margin: 0px 100px;
+    background-color: rgba(29,29,35,0.8);
+}
+.s4-para{
+    text-align: center;
+    width: 100%;
+}
+.s5-content{
+    text-align: left;
+    margin: 0px 20px;
+}
+.s5-content h3{
+    font-size: 27px;
+    color: #FA9100;
+    padding-bottom: 20px;
+}
+.menu-para{
+    font-size: 17px;
+    color: white;
+    padding-bottom: 20px;
+}
+.menu-price{
+    font-size: 25px;
+    color: #D67C00;
+}
+.s6-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 100px 0px;
+    background-color: #FA9100;
+}
+.food5-2{
+    position: absolute;
+    top: 6685px;
+    width: 40%;
+    left: 10px;
+}
+.footer-wrapper{
+    padding: 100px 100px;
+    background-color: #313238;
+}
+.footer-logo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 30px 100px;
+    /* border: 2px solid red; */
+}
+.footer-nav-buttons li{
+    list-style: none;
+}
+.footer-nav-buttons li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.social-media{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 20px;
+}
+.media-logos{
+    width: 5%;
+    padding-right: 15px;
+}
