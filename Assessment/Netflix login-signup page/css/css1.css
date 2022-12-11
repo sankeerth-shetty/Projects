@@ -50,7 +50,7 @@
     background-color: #333333;
 }
 .box-text::placeholder{
-    font-size: 16px;
+    font-size: 15px;
     color: gray;
 }
 .sub-wp{
@@ -98,6 +98,9 @@
     text-decoration: none;
     color: white;
     font-weight: 550;
+}
+.signup:hover{
+    text-decoration: underline;
 }
 .end-text{
     font-family: Arial, Helvetica, sans-serif;
