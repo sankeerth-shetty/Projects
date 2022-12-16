@@ -54,11 +54,12 @@
     color: gray;
 }
 .sub-wp{
-    margin-top: 55px;
+    margin-top: 45px;
     justify-content: center;
 }
 .submit{
-    padding: 15px 137px;
+    width: 100%;
+    padding: 15px 0px;
     border: 1px;
     border-color: transparent;
     border-radius: 5px;
@@ -68,6 +69,8 @@
     font-weight: 550;
     color: white;
     text-decoration: none;
+    text-align: center;
+    display: block;
 }
 .remname{
     font-family: Arial, Helvetica, sans-serif;
