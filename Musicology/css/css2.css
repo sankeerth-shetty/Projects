@@ -279,7 +279,7 @@
         width: 100%;
         background-origin: padding-box;
         /* background-position: 10% 50%; */
-        padding-bottom: 50rem;
+        padding-bottom: 45rem;
         /* border: 1px solid #2C2C2C; */
         background-image: url(../images/blackdance.png);
         background-size: 25rem;
@@ -290,10 +290,13 @@
     } */
     .img2bd{
         width: 100%;
-        /* border: 1px solid red; */
+        background-origin: padding-box;
+        /* background-position: 10% 50%; */
+        padding-bottom: 45rem;
+        /* border: 1px solid #2C2C2C; */
         background-image: url(../images/whitedance.png);
-        background-size: cover;
-        position: relative;
+        background-size:contain;
+        background-repeat: no-repeat;
     }
     .img2bd:hover{
         transform: rotateY(180deg);
@@ -303,8 +306,9 @@
         background-color: #FF630C;
         /* border: 1px solid red; */
         position: absolute;
-        top: 420px;
+        top: 435px;
         margin-bottom: 80px;
+        background-size: contain;
     }
     .amzcon{
         /* border: 1px solid green; */
