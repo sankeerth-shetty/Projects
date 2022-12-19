@@ -175,38 +175,41 @@
 }
 .bestburger{
     padding: 180px 0px;
-    margin: 0px 100px;
+    margin: 0px 50px;
     /* border: 1px solid yellow; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .bestburger .bb1{
     /* border: 1px solid yellow; */
     width: 45%;
+    text-align: center;
 }
 .bestburger .bb1 img{
     width: 75%;
-    margin-right: 75px;
+    /* margin-right: 75px; */
     border-radius: 50%;
 }
 .bestburger .bb2{
     /* border: 1px solid yellow; */
     width: 55%;
+    padding-bottom: 70px;
 }
-.bestburger .bb2 h2{
+.sec3-color h2{
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 65px;
     color: white;
 }
-.bestburger .bb2 p{
+.sec3-color p{
     margin-top: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
     color: white;
     margin-bottom: 70px;
 }
-.bestburger .bb2 a{
+.sec3-color a{
     color:#F64B3C;
     border: 1px solid white;
     background-color: white;
@@ -217,10 +220,15 @@
     text-decoration: none;
     border-radius: 50px;
 }
-.bestburger .bb2 a:hover{
+.sec3-color a:hover{
     color: white;
     border-color: #222222;
     background-color: #222222;
+}
+.bb2-cont{
+    /* border: 1px solid green; */
+    width: 85%;
+    margin: 0 auto;
 }
 .s3pace{
     padding-bottom: 10px;
@@ -229,41 +237,25 @@
     background-color: #F6EEDF;
     /* border: 1px solid yellow; */
 }
-.bestburger2{
-    padding: 130px 0px;
-    margin: 0px 100px;
-    /* border: 1px solid yellow; */
-    display: flex;
-    justify-content: space-between;
-}
-.bestburger2 .bb4{
-    /* border: 1px solid yellow; */
-    width: 40%;
-}
-.bestburger2 .bb4 img{
-    width: 80%;
-    margin-left: 80px;
-    border-radius: 50%;
-}
 .bestburger2 .bb3{
     /* border: 1px solid yellow; */
     width: 60%;
     padding-bottom: 100px;
 }
-.bestburger2 .bb3 h2{
+.sec4-color h2{
     margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 65px;
     color: #F64B3C;
 }
-.bestburger2 .bb3 p{
+.sec4-color p{
     margin-top: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
     color: #F64B3C;
     margin-bottom: 70px;
 }
-.bestburger2 .bb3 a{
+.sec4-color a{
     color: white;
     border: 1px solid #F64B3C;
     background-color: #F64B3C;
@@ -274,12 +266,12 @@
     text-decoration: none;
     border-radius: 50px;
 }
-.bestburger2 .bb3 a:hover{
+.sec4-color a:hover{
     border-color: #222222;
     background-color: #222222;
 }
 .ldood1{
-    margin-top: -615px;
+    margin-top: -770px;
     margin-left: 530px;
     position: absolute;
     width: 150px;
@@ -291,7 +283,7 @@
     width: 80px;
 }
 .ldood3{
-    margin-top: -560px;
+    margin-top: -660px;
     margin-left: 1190px;
     position: absolute;
     width: 100px;
@@ -309,7 +301,7 @@
     width: 85px;
 }
 .ldood6{
-    margin-top: -525px;
+    margin-top: -625px;
     margin-left: -10px;
     position: absolute;
     width: 80px;
@@ -478,6 +470,7 @@ div[class*=onbutt] a:hover{
     /* border: 1px solid blue; */
     padding-top: 250px;
     padding-bottom: 250px;
+    background-color: rgba(246, 75, 60, .5);
 }
 .s7content p{
     /* border: 1px solid blue; */
