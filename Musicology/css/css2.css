@@ -291,11 +291,11 @@
     .img2bd{
         width: 100%;
         background-origin: padding-box;
-        /* background-position: 10% 50%; */
+        background-position: 70% 0%;
         padding-bottom: 45rem;
         /* border: 1px solid #2C2C2C; */
-        background-image: url(../images/whitedance.png);
-        background-size:contain;
+        background-image: url(../images/whitedance.png) center center;
+        background-size: 25rem;
         background-repeat: no-repeat;
     }
     .img2bd:hover{
@@ -309,6 +309,7 @@
         top: 435px;
         margin-bottom: 80px;
         background-size: contain;
+        z-index: 1;
     }
     .amzcon{
         /* border: 1px solid green; */
