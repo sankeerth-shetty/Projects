@@ -500,8 +500,15 @@
 .footer1{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* border: 1px solid blue; */
+}
+.footer-buttons{
+    /* border: 1px solid blue; */
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
 .Title1{
     width: 55%;
@@ -515,7 +522,7 @@
 }
 .Title1 p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     color: white;
     margin-bottom: 15px;
     margin-right: 90px;
@@ -569,7 +576,7 @@
     margin-right: 10px;
 }
 .About1{
-    width: 15%;
+    width: 23%;
     /* border: 1px solid blue; */
 }
 .About1 h3{
@@ -592,7 +599,7 @@
     text-decoration: underline;
 }
 .Services1{
-    width: 15%;
+    width: 23%;
     /* border: 1px solid blue; */
 }
 .Services1 h3{
@@ -615,7 +622,7 @@
     text-decoration: underline;
 }
 .Other1{
-    width: 15%;
+    width: 23%;
     /* border: 1px solid blue; */
 }
 .Other1 h3{
