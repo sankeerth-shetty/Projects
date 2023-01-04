@@ -48,3 +48,34 @@ function btn(){
     }
     
 }
+
+
+function subsd(c){
+    console.log(c.value);
+
+    if(c.value == ""){
+        document.getElementById("email-para").style.display = "block";
+        document.getElementById("inputs-content").style.borderBottom = "2px solid #FF920B";
+        document.getElementById("get-started").style.marginBottom = "24px";
+    }
+    else{
+        document.getElementById("email-para").style.display = "none";
+        document.getElementById("inputs-content").style.borderBottom = "2px solid #f9f9f9";
+        document.getElementById("get-started").style.marginBottom = "7px";
+    }
+}
+
+function subsd1(d){
+    console.log(d.value);
+
+    if(d.value == ""){
+        document.getElementById("email-para1").style.display = "block";
+        document.getElementById("inputs-content1").style.borderBottom = "2px solid #FF920B";
+        document.getElementById("get-started1").style.marginBottom = "24px";
+    }
+    else{
+        document.getElementById("email-para1").style.display = "none";
+        document.getElementById("inputs-content1").style.borderBottom = "2px solid #f9f9f9";
+        document.getElementById("get-started1").style.marginBottom = "7px";
+    }
+}
