@@ -27,11 +27,17 @@
         <div class="form-container">
             <form action="" method="post" class="form-tag">
                 <h1 class="form-h1">Sign In</h1>
-                <div class="box-wp">
-                    <input type="text" name="text" placeholder="Email or phone number" max-width="200" class="box-text" required><br>
+                <div class="inp-wp">
+                    <div class="box-wp" id="box-wp">
+                        <input type="text" name="text" placeholder="Email or phone number" max-width="200" class="box-text" onblur="emaild(this)" required><br>
+                    </div>
+                    <p class="validation" id="email-v">Please enter a valid email address or phone number.</p>
                 </div>
-                <div class="box-wp">
-                    <input type="password" name="password" id="password" placeholder="Password" class="box-text" required><br>
+                <div class="inp-wp">
+                    <div class="box-wp" id="box-wp1">
+                        <input type="password" name="password" id="password" placeholder="Password" class="box-text" onblur="passd(this)" required><br>
+                    </div>
+                    <p class="validation" id="pass-v">Your password must contain between 4 and 60 characters.</p>
                 </div>
                 <div class="sub-wp">
                     <input type="submit" class="submit" value="Sign In">Sign In<br>
@@ -51,6 +57,7 @@
         </div>
     </section>
     </div>
+    <script src="../js/js1.js"></script>
 </header>
 </section>
 </body>

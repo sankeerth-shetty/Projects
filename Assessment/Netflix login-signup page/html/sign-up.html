@@ -38,10 +38,13 @@
                     <p class="hc-p1">Watch anywhere. Cancel anytime</p>
                     <p class="hc-p2">Ready to watch? Enter your email to create or restart your membership.</p>
                     <div class="email-inputs">
-                        <div class="inputs-content">
-                            <input type="email" name="email" id="email" placeholder="Email address" required>
+                        <div class="email-input-wrapper">
+                            <div class="inputs-content" id="inputs-content">
+                                <input type="email" name="email" id="email" placeholder="Email address" onblur="subsd(this)" required>
+                            </div>
+                            <p class="email-para" id="email-para">Email is required.</p>
                         </div>
-                        <a href="#" id="get-started">Get Started &nbsp;<i class="fa-solid fa-greater-than fa-xs"></i></a>
+                        <button href="#" class="get-started" id="get-started">Get Started &nbsp;<i class="fa-solid fa-greater-than fa-xs"></i></button>
                     </div>
                 </div>
                 </form>
@@ -234,12 +237,15 @@
                 </div>
                 <script src="../js/js1.js"></script>
                 <p class="hc-p2">Ready to watch? Enter your email to create or restart your membership.</p>
-                    <div class="email-inputs">
-                        <div class="inputs-content">
-                            <input type="email" name="email" id="email" placeholder="Email address" required>
+                <div class="email-inputs">
+                    <div class="email-input-wrapper">
+                        <div class="inputs-content" id="inputs-content1">
+                            <input type="email" name="email" id="email" placeholder="Email address" onblur="subsd1(this)" required>
                         </div>
-                        <a href="#" id="get-started">Get Started &nbsp;<i class="fa-solid fa-greater-than fa-xs"></i></a>
+                        <p class="email-para" id="email-para1">Email is required.</p>
                     </div>
+                    <button href="#" class="get-started" id="get-started1">Get Started &nbsp;<i class="fa-solid fa-greater-than fa-xs"></i></button>
+                </div>
                 <div>
             </div>
             </div>

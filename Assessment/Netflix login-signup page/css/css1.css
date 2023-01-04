@@ -108,10 +108,21 @@ img{
     justify-content: center;
     flex-wrap: wrap;
 }
+/* .email-input-wrapper{
+    border: 1px solid red;
+} */
+.email-para{
+    color: #FF920B;
+    font-size: 15px;
+    display: none;
+}
 .inputs-content{
     padding-right: 100px;
-    border: 1px solid grey;
+    border: 2px solid rgb(233, 233, 233);
     background-color: white;
+    /* border: 1px solid blue; */
+    border-bottom: 2px solid #E9E9E9;
+    margin-bottom: 7px;
 }
 #email{
     margin-right: 35px;
@@ -122,18 +133,23 @@ img{
     border-color: transparent;
     /* border: 1px solid transparent; */
 }
-#get-started{
+#email:focus{
+    outline: none;
+}
+.get-started{
     padding: 15px 30px;
-    border: 1px solid #E50914;
+    border: 2px solid #E50914;
     font-size: 25px;
     font-weight: 500;
     text-decoration: none;
     color: white;
     background-color: #E50914;
+    margin-bottom: 7px;
 }
-#get-started:hover{
+.get-started:hover{
     border-color: #f10e1a;
     background-color: #f10e1a;
+    cursor: pointer;
 }
 .hr-border{
     background-color: #222222;
@@ -423,7 +439,7 @@ img{
         border-color: transparent;
         border: 1px solid transparent;
     }
-    #get-started{
+    .get-started{
         margin-top: 20px;
         padding: 10px 27px;
         border: 1px solid #E50914;
@@ -696,7 +712,7 @@ img{
         border-color: transparent;
         border: 1px solid transparent;
     }
-    #get-started{
+    .get-started{
         margin-top: 20px;
         padding: 10px 27px;
         border: 1px solid #E50914;
@@ -969,7 +985,7 @@ img{
         border-color: transparent;
         border: 1px solid transparent;
     }
-    #get-started{
+    .get-started{
         margin-top: 20px;
         padding: 10px 27px;
         border: 1px solid #E50914;
@@ -1243,7 +1259,7 @@ img{
         border-color: transparent;
         border: 1px solid transparent;
     }
-    #get-started{
+    .get-started{
         padding: 15px 27px;
         border: 1px solid #E50914;
         font-size: 20px;
