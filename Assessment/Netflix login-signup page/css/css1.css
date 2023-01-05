@@ -396,6 +396,10 @@ img{
     margin: 0 auto;
     /* border: 1px solid blue; */
 }
+#footer .header-language{
+    color: #8F8D8F;
+    border: 1px solid #8F8D8F;
+}
 
 
 
