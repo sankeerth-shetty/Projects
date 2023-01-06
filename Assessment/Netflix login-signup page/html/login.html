@@ -1,110 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link of favicon image  -->
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <!-- link of external css  -->
     <link rel="stylesheet" href="../css/css2.css">
     <title>Netflix</title>
 </head>
+
 <body>
-<!-- <section id="bg-wrapper"> -->
-    <!-- header section  -->
-<header id="header">
-    <div class="header-wrapper">
+    <!-- header section starts -->
+    <header id="header">
+        <!-- header-wrapper -->
+        <div class="header-wrapper">
             <nav class="navbar">
                 <div class="logo-wrapper col-50">
                     <a href="sign-up.html"><img src="../images/logo.png" alt="logo" class="logo"></a>
                 </div>
             </nav>
-        
 
-    <!-- login form  -->
-    <section id="form-wrapper">
-        <div class="form-container">
-            <form action="" method="post" class="form-tag">
-                <h1 class="form-h1">Sign In</h1>
-                <div class="inp-wp">
-                    <div class="box-wp" id="box-wp">
-                        <input type="text" name="text" placeholder="Email or phone number" max-width="200" class="box-text" onblur="emaild(this)" required><br>
-                    </div>
-                    <p class="validation" id="email-v">Please enter a valid email address or phone number.</p>
-                </div>
-                <div class="inp-wp">
-                    <div class="box-wp" id="box-wp1">
-                        <input type="password" name="password" id="password" placeholder="Password" class="box-text" onblur="passd(this)" required><br>
-                    </div>
-                    <p class="validation" id="pass-v">Your password must contain between 4 and 60 characters.</p>
-                </div>
-                <div class="sub-wp">
-                    <input type="submit" class="submit" value="Sign In">Sign In<br>
-                </div>
-                <div class="text-wp">
-                    <div class="rm-wp">
-                    <input type="checkbox" name="remember" class="checkbox" checked><label for="name" class="remname">Remember me</label>
-                    </div>
-                    <div class="nh-wp">
-                        <a href="#" class="nhelp">Need help?</a>
-                    </div>
-                </div>
 
-                <p class="new-netflix">New to Netflix? <a href="sign-up.html" class="signup">Sign up now.</a></p>
-                <p class="end-text">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" class="learn-more">Learn more.</a> </p>
-            </form>
+            <!-- login form starts-->
+            <section id="form-wrapper">
+                <!-- form container -->
+                <div class="form-container">
+                    <form action="" method="post" class="form-tag">
+                        <!-- form title -->
+                        <h1 class="form-h1">Sign In</h1>
+                        <!-- form input email -->
+                        <div class="inp-wp">
+                            <div class="box-wp" id="box-wp">
+                                <input type="text" name="text" placeholder="Email or phone number" max-width="200"
+                                    class="box-text" onblur="emaild(this)" required><br>
+                            </div>
+                            <p class="validation" id="email-v">Please enter a valid email address or phone number.</p>
+                        </div>
+                        <!-- form input password -->
+                        <div class="inp-wp">
+                            <div class="box-wp" id="box-wp1">
+                                <input type="password" name="password" id="password" placeholder="Password"
+                                    class="box-text" onblur="passd(this)" required><br>
+                            </div>
+                            <p class="validation" id="pass-v">Your password must contain between 4 and 60 characters.
+                            </p>
+                        </div>
+                        <!-- form submit button -->
+                        <div class="sub-wp">
+                            <input type="submit" class="submit" value="Sign In">Sign In<br>
+                        </div>
+                        <!-- form need help button -->
+                        <div class="text-wp">
+                            <div class="rm-wp">
+                                <input type="checkbox" name="remember" class="checkbox" checked><label for="name"
+                                    class="remname">Remember me</label>
+                            </div>
+                            <div class="nh-wp">
+                                <a href="#" class="nhelp">Need help?</a>
+                            </div>
+                        </div>
+
+                        <!-- form sign-up button -->
+                        <p class="new-netflix">New to Netflix? <a href="sign-up.html" class="signup">Sign up now.</a>
+                        </p>
+                        <p class="end-text">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a
+                                href="#" class="learn-more">Learn more.</a> </p>
+                    </form>
+                </div>
+            </section>
+            <!-- login form ends -->
+
+            <!-- form-footer starts -->
+            <section id="form-footer">
+                <!-- form-footer wrapper -->
+                <div class="footer-wrapper">
+                    <div class="container">
+                        <div class="footer-container">
+                            <p class="footer-call">Questions? Call <a href="#">000-800-919-1694</a></p>
+                        </div>
+                        <div class="footer-container">
+                            <div class="col-25">
+                                <ul class="footer-ul">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Cookie Preferences</a></li>
+                                    <li class="footer-lang">
+                                        <div class="header-language">
+                                            <i class="fa-solid fa-globe fa-xs"></i>
+                                            <select name="language" id="language">
+                                                <option value="english">English</option>
+                                                <option value="hindi">हिंदी</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-25">
+                                <ul class="footer-ul">
+                                    <li><a href="#">Help Centre</a></li>
+                                    <li><a href="#">Corporate Information</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-25">
+                                <ul class="footer-ul">
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#" id="md-privacy">Privacy</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-25" id="md-privacy1">
+                                <ul class="footer-ul">
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- form-footer ends -->
+
         </div>
-    </section>
 
-    <section id="form-footer">
-        <div class="footer-wrapper">
-            <div class="container">
-                <div class="footer-container">
-                    <p class="footer-call">Questions? Call <a href="#">000-800-919-1694</a></p>
-                </div>
-                <div class="footer-container">
-                    <div class="col-25">
-                        <ul class="footer-ul">
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Cookie Preferences</a></li>
-                            <li class="footer-lang">
-                                <div class="header-language">
-                                    <i class="fa-solid fa-globe fa-xs"></i>
-                                    <select name="language" id="language">
-                                        <option value="english">English</option>
-                                        <option value="hindi">हिंदी</option>
-                                    </select>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-25">
-                        <ul class="footer-ul">
-                            <li><a href="#">Help Centre</a></li>
-                            <li><a href="#">Corporate Information</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-25">
-                        <ul class="footer-ul">
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#" id="md-privacy">Privacy</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-25" id="md-privacy1">
-                        <ul class="footer-ul">
-                            <li><a href="#">Privacy</a></li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    </div>
-    <script src="../js/js1.js"></script>
-</header>
-</section>
+        <!-- external js link -->
+        <script src="../js/js1.js"></script>
+
+    </header>
+    <!-- header section ends -->
+
 </body>
+
 </html>
