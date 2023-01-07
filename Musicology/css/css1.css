@@ -14,6 +14,9 @@
     position: relative;
     z-index: 500;
 }
+#nav-button{
+    display: none;
+}
 .nav{
     background-color: #2C2C2C;
     display: flex;
