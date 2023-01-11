@@ -22,7 +22,7 @@
         align-items: center;
         width: 100%;
         position: fixed;
-        padding: 10px 0px;
+        padding: 15px 0px;
     }
     #nav-button{
         display: none;
@@ -34,18 +34,20 @@
         display: inline-block;
         text-align: center;
         list-style: none;
-        top: 78px;
+        top: 100px;
         width: 100%;
         background-color: #2C2C2C;
+        transition: all 0.5s ease-in;
+        overflow-y: hidden;
         height: 0px;
+        display: block;
     }
     #nav-button:not(:checked) ~ .navb{
-        height: 0px;
-        display: none;
+        visibility: hidden;
     }
     #nav-button:checked ~ .navb{
         height: 475px;
-        display: block;
+        visibility: visible;
     }
     .navb li{
         padding-right: 5px;
@@ -67,20 +69,20 @@
     }
     .logo{
         padding: 13px 0px 8px 10px;
-        width: 55%;
+        width: 70%;
     }
     .searchb{
-        font-size: 20px;
-        padding-right: 10px;
+        font-size: 25px;
+        padding-right: 25px;
         color: white;
-        margin-left: 20px;
+        margin-left: 25px;
     }
     .searchb:hover{
         color: #FF630C;
     }
     .menubarb{
         display: block;
-        font-size: 20px;
+        font-size: 25px;
         /* padding-left: 200px; */
         /* margin-left: 100px; */
         color: white;
@@ -775,7 +777,7 @@
         /* border: 1px solid blue; */
         align-items: center;
         width: 100%;
-        padding: 10px 0px;
+        padding: 15px 0px;
         position: fixed;
     }
     #nav-button{
@@ -787,20 +789,21 @@
         justify-content: space-between;
         text-align: center;
         list-style: none;
-        top: 78px;
+        top: 100px;
         width: 100%;
         background-color: #2C2C2C;
+        transition: all 0.5s ease-in;
         height: 0px;
         padding-right: 20px;
-        overflow: hidden;
+        overflow-y: hidden;
         z-index: 120;
+        display: block;
     }
     #nav-button:not(:checked) ~ .navb{
-        height: 0px;
-        display: none;
+        visibility: hidden;
     }
     #nav-button:checked ~ .navb{
-        display: block;
+        visibility:visible;
         height: 480px;
     }
     .navb li{
@@ -822,20 +825,20 @@
     }
     .logo{
         padding: 13px 0px 8px 10px;
-        width: 55%;
+        width: 70%;
     }
     .searchb{
-        font-size: 20px;
-        padding-right: 10px;
+        font-size: 25px;
+        padding-right: 25px;
         color: white;
-        margin-left: 20px;
+        margin-left: 25px;
     }
     .searchb:hover{
         color: #FF630C;
     }
     .menubarb{
         display: block;
-        font-size: 20px;
+        font-size: 25px;
         /* padding-left: 200px; */
         /* margin-left: 100px; */
         color: white;
