@@ -57,6 +57,7 @@ img{
     font-size: 14px;
     background-color: transparent;
     border-color: transparent;
+    outline: transparent;
 }
 #language option{
     color: black;
@@ -85,8 +86,11 @@ img{
 .content-container h1{
     font-size: 48px;
     text-align: center;
-    margin-top: 60px;
+    padding-top: 60px;
     color: white;
+    width: 96%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 .hc-p1{
     font-size: 26.5px;
@@ -163,7 +167,7 @@ img{
     background-color: black;
 }
 .section-content{
-    width: 85%;
+    width: 86%;
     /* border: 1px solid blue; */
 }
 .section-content h1{
@@ -420,7 +424,7 @@ img{
     .content-container h1{
         font-size: 48px;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 0px;
         color: white;
     }
     .header-wrapper{
@@ -693,7 +697,7 @@ img{
     .content-container h1{
         font-size: 48px;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 0px;
         color: white;
     }
     .header-wrapper{
@@ -966,7 +970,7 @@ img{
     .content-container h1{
         font-size: 48px;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 0px;
         color: white;
     }
     .header-wrapper{
@@ -1240,7 +1244,7 @@ img{
     .content-container h1{
         font-size: 48px;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 0px;
         color: white;
     }
     .header-wrapper{
