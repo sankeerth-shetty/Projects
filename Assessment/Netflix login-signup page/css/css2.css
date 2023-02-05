@@ -188,15 +188,16 @@ body{
 .header-language{
     color: white;
     border: 1px solid white;
-    padding: 8px 6px;
-    padding-right: 0px;
+    padding: 8px 0px;
     border-radius: 3px;
+    text-align: center;
 }
 #language{
-    color: white;
+    color: #8F8D8F;
     font-size: 14px;
     background-color: transparent;
     border-color: transparent;
+    outline: none;
 }
 #language option{
     color: black;
@@ -361,6 +362,9 @@ body{
     .header-language{
         color: #8F8D8F;
         border: 1px solid #8F8D8F;
+        padding: 8px 0px;
+        text-align: center;
+        width: 100%;
     }
 }
 
@@ -520,5 +524,12 @@ body{
     }
     #language{
         outline-color: #8F8D8F;
+    }
+    .header-language{
+        color: #8F8D8F;
+        border: 1px solid #8F8D8F;
+        padding: 8px 0px;
+        text-align: center;
+        width: 80%;
     }
 }

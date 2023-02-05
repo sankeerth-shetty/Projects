@@ -59,8 +59,15 @@ img{
     border-color: transparent;
     outline: transparent;
 }
-#language option{
+#language option, #language2 option{
     color: black;
+}
+#language2{
+    color: #8F8D8F;
+    font-size: 14px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
 }
 .header-sign-in{
     /* border: 1px solid blue; */
