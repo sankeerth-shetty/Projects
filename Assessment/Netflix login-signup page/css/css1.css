@@ -90,7 +90,7 @@ img{
     margin: 0 auto;
     border: 1px solid transparent;
 }
-.content-container h1{
+.content-container h2{
     font-size: 48px;
     text-align: center;
     padding-top: 60px;
@@ -177,7 +177,7 @@ img{
     width: 86%;
     /* border: 1px solid blue; */
 }
-.section-content h1{
+.section-content h2{
     font-size: 48px;
     padding-bottom: 20px;
     color: white;
@@ -428,7 +428,7 @@ img{
         margin: 0 auto;
         /* border: 1px solid blue; */
     }
-    .content-container h1{
+    .content-container h2{
         font-size: 48px;
         text-align: center;
         margin-top: 0px;
@@ -482,7 +482,7 @@ img{
         width: 100%;
         /* border: 1px solid blue; */
     }
-    .section-content h1{
+    .section-content h2{
         font-size: 40px;
         padding-top: 75px;
         padding-bottom: 20px;
@@ -587,7 +587,7 @@ img{
         /* border: 1px solid blue; */
         padding-bottom: 80px;
     }
-    .s5-wrapper h1{
+    .s5-wrapper h2{
         font-size: 40px;
     }
     #accordion{
@@ -701,7 +701,7 @@ img{
         margin: 0 auto;
         /* border: 1px solid blue; */
     }
-    .content-container h1{
+    .content-container h2{
         font-size: 48px;
         text-align: center;
         margin-top: 0px;
@@ -755,7 +755,7 @@ img{
         width: 100%;
         /* border: 1px solid blue; */
     }
-    .section-content h1{
+    .section-content h2{
         font-size: 40px;
         padding-top: 75px;
         padding-bottom: 20px;
@@ -860,7 +860,7 @@ img{
         /* border: 1px solid blue; */
         padding-bottom: 80px;
     }
-    .s5-wrapper h1{
+    .s5-wrapper h2{
         font-size: 40px;
     }
     #accordion{
@@ -974,7 +974,7 @@ img{
         margin: 0 auto;
         /* border: 1px solid blue; */
     }
-    .content-container h1{
+    .content-container h2{
         font-size: 48px;
         text-align: center;
         margin-top: 0px;
@@ -1028,7 +1028,7 @@ img{
         width: 100%;
         /* border: 1px solid blue; */
     }
-    .section-content h1{
+    .section-content h2{
         font-size: 40px;
         padding-top: 75px;
         padding-bottom: 20px;
@@ -1133,7 +1133,7 @@ img{
         /* border: 1px solid blue; */
         padding-bottom: 80px;
     }
-    .s5-wrapper h1{
+    .s5-wrapper h2{
         font-size: 40px;
     }
     #accordion{
@@ -1248,7 +1248,7 @@ img{
         margin: 0 auto;
         /* border: 1px solid blue; */
     }
-    .content-container h1{
+    .content-container h2{
         font-size: 48px;
         text-align: center;
         margin-top: 0px;
@@ -1301,7 +1301,7 @@ img{
         width: 100%;
         /* border: 1px solid blue; */
     }
-    .section-content h1{
+    .section-content h2{
         font-size: 40px;
         padding-top: 75px;
         padding-bottom: 20px;
@@ -1406,7 +1406,7 @@ img{
         /* border: 1px solid blue; */
         padding-bottom: 80px;
     }
-    .s5-wrapper h1{
+    .s5-wrapper h2{
         font-size: 40px;
     }
     #accordion{
