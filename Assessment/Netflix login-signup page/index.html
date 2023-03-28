@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link of external css  -->
+    <link rel="stylesheet" href="css/css1.css">
+    <!-- link of favicon image  -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header id="header">
+        <!-- header wrapper starts -->
+        <div class="header-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <nav class="nav">
+                    <div class="header-logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <div class="header-buttons">
+                        <div class="header-language">
+                            <i class="fa-solid fa-globe fa-xs"></i>
+                            <select name="language" id="language">
+                                <option value="english">English</option>
+                                <option value="hindi">हिंदी</option>
+                            </select>
+                        </div>
+                        <div class="header-sign-in">
+                            <a href="login.html" class="sign-in">Sign In</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="space">
+                </div>
+                <form action="" method="">
+                    <div class="content-container">
+                        <h2>Unlimited movies, TV shows and more.</h2>
+                        <p class="hc-p1">Watch anywhere. Cancel anytime</p>
+                        <!-- email for membership -->
+                        <p class="hc-p2">Ready to watch? Enter your email to create or restart your membership.</p>
+                        <div class="email-inputs">
+                            <div class="email-input-wrapper">
+                                <div class="inputs-content" id="inputs-content">
+                                    <input type="email" name="email" id="email" placeholder="Email address"
+                                        onblur="subsd(this)" required>
+                                </div>
+                                <p class="email-para" id="email-para">Email is required.</p>
+                            </div>
+                            <button href="#" class="get-started" id="get-started">Get Started &nbsp;<i
+                                    class="fa-solid fa-greater-than fa-xs"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="space">
+                </div>
+            </div>
+            <!-- container ends -->
+        </div>
+        <!-- header wrapper ends -->
+    </header>
+    <!-- header ends -->
+
+
+    <hr class="hr-border">
+
+    <!-- section 1 starts -->
+    <section id="section-1">
+        <!-- section wrapper starts-->
+        <div class="section-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="section-content s1-con">
+                            <h2>Enjoy on your TV.</h2>
+                            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <div class="netflix-tv">
+                            <img src="images/tv-gif.gif" alt="tv img" class="tv-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container ends -->
+        </div>
+        <!-- section wrapper ends -->
+    </section>
+    <!-- section 1 ends -->
+
+
+    <hr class="hr-border">
+
+
+    <!-- section 2 starts -->
+    <section id="section-2">
+        <!-- section wrapper starts -->
+        <div class="section-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <div class="row rinvert">
+                    <div class="col-50">
+                        <div class="netflix-mobile">
+                            <img src="images/mobile-gif.gif" alt="mobile-image" class="mobile-image">
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <div class="section-content s2-con">
+                            <h2>Download your shows to watch offline.</h2>
+                            <p>Save your favourites easily and always have something to watch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container ends -->
+        </div>
+        <!-- section wrapper ends -->
+    </section>
+    <!-- section 2 ends -->
+
+
+    <hr class="hr-border">
+
+
+    <!-- section 3 starts -->
+    <section id="section-3">
+        <!-- section wrapper starts -->
+        <div class="section-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="section-content s1-con">
+                            <h2>Watch everywhere.</h2>
+                            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <div class="netflix-tv s3-con">
+                            <img src="images/pc-gif.gif" alt="pc img" class="tv-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container ends -->
+        </div>
+        <!-- section wrapper ends -->
+    </section>
+    <!-- section 3 ends -->
+
+
+    <hr class="hr-border">
+
+
+    <!-- section 4 starts -->
+    <section id="section-4">
+        <!-- section wrapper starts -->
+        <div class="section-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <div class="row rinvert">
+                    <div class="col-50">
+                        <div class="netflix-mobile s4-con">
+                            <img src="images/children.png" alt="mobile img" class="mobile-image">
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <div class="section-content s2-con">
+                            <h2>Create profiles for children.</h2>
+                            <p>Send children on adventures with their favourite characters in a space made just for
+                                them—free with your membership.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container ends -->
+        </div>
+        <!-- section wrapper ends -->
+    </section>
+    <!-- section 4 ends -->
+
+
+    <hr class="hr-border">
+
+
+    <!-- section 5 starts -->
+    <section id="section-5">
+        <!-- section wrapper starts -->
+        <div class="s5-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <div class="row">
+                    <div class="content-container">
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="faq-container">
+                            <!-- accordion starts -->
+                            <ul id="accordion">
+                                <!-- question 1 starts -->
+                                <li>
+                                    <label for="first-acc">What is Netflix? <span id="span1">&#x2715;</span></label>
+                                    <input type="checkbox" name="accordion" id="first-acc" onclick="btn()">
+                                    <div class="content-acc">
+                                        <p class="acc-para">Netflix is a streaming service that offers a wide variety of
+                                            award-winning TV shows, movies, anime, documentaries and more - on thousands
+                                            of internet-connected devices.</p>
+                                        <p class="acc-para">You can watch as much as you want, whenever you want,
+                                            without a single ad – all for one low monthly price. There's always
+                                            something new to discover, and new TV shows and movies are added every week!
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- question 1 ends -->
+
+                                <!-- question 2 starts -->
+                                <li>
+                                    <label for="second-acc">How much does Netflix cost? <span
+                                            id="span2">&#x2715;</span></label>
+                                    <input type="checkbox" name="accordion" id="second-acc" onclick="btn()">
+                                    <div class="content-acc">
+                                        <p class="acc-para">Watch Netflix on your smartphone, tablet, Smart TV, laptop,
+                                            or streaming device, all for one fixed monthly fee. Plans range from ₹ 149
+                                            to ₹ 649 a month. No extra costs, no contracts.</p>
+                                    </div>
+                                </li>
+                                <!-- question 2 ends -->
+                                
+                                <!-- question 3 starts -->
+                                <li>
+                                    <label for="third-acc">Where can I watch? <span id="span3">&#x2715;</span></label>
+                                    <input type="checkbox" name="accordion" id="third-acc" onclick="btn()">
+                                    <div class="content-acc">
+                                        <p class="acc-para">Watch anywhere, anytime. Sign in with your Netflix account
+                                            to watch instantly on the web at netflix.com from your personal computer or
+                                            on any internet-connected device that offers the Netflix app, including
+                                            smart TVs, smartphones, tablets, streaming media players and game consoles.
+                                        </p>
+                                        <p class="acc-para">You can also download your favourite shows with the iOS,
+                                            Android, or Windows 10 app. Use downloads to watch while you're on the go
+                                            and without an internet connection. Take Netflix with you anywhere.</p>
+                                    </div>
+                                </li>
+                                <!-- question 3 ends -->
+
+                                <!-- question 4 starts -->
+                                <li>
+                                    <label for="fourth-acc">How do I cancel? <span id="span4">&#x2715;</span></label>
+                                    <input type="checkbox" name="accordion" id="fourth-acc" onclick="btn()">
+                                    <div class="content-acc">
+                                        <p class="acc-para">Netflix is flexible. There are no annoying contracts and no
+                                            commitments. You can easily cancel your account online in two clicks. There
+                                            are no cancellation fees – start or stop your account anytime.</p>
+                                    </div>
+                                </li>
+                                <!-- question 4 ends -->
+
+                                <!-- question 5 starts -->
+                                <li>
+                                    <label for="fifth-acc">Where can I watch on Netflix? <span
+                                            id="span5">&#x2715;</span></label>
+                                    <input type="checkbox" name="accordion" id="fifth-acc" onclick="btn()">
+                                    <div class="content-acc">
+                                        <p class="acc-para">Netflix has an extensive library of feature films,
+                                            documentaries, TV shows, anime, award-winning Netflix originals, and more.
+                                            Watch as much as you want, anytime you want.</p>
+                                    </div>
+                                </li>
+                                <!-- question 5 ends -->
+
+                                <!-- question 6 starts -->
+                                <li>
+                                    <label for="sixth-acc">Is Netflix good for kids? <span
+                                            id="span6">&#x2715;</span></label>
+                                    <input type="checkbox" name="accordion" id="sixth-acc" onclick="btn()">
+                                    <div class="content-acc">
+                                        <p class="acc-para">The Netflix Kids experience is included in your membership
+                                            to give parents control while kids enjoy family-friendly TV shows and films
+                                            in their own space.</p>
+                                        <p class="acc-para">Kids profiles come with PIN-protected parental controls that
+                                            let you restrict the maturity rating of content kids can watch and block
+                                            specific titles you don’t want kids to see.</p>
+                                    </div>
+                                </li>
+                                <!-- question 6 ends -->
+                            </ul>
+                        </div>
+
+                        <!-- external js link  -->
+                        <script src="js/js1.js"></script>
+
+                        <!-- email for membership -->
+                        <p class="hc-p2">Ready to watch? Enter your email to create or restart your membership.</p>
+                        <div class="email-inputs">
+                            <div class="email-input-wrapper">
+                                <div class="inputs-content" id="inputs-content1">
+                                    <input type="email" name="email" id="email" placeholder="Email address"
+                                        onblur="subsd1(this)" required>
+                                </div>
+                                <p class="email-para" id="email-para1">Email is required.</p>
+                            </div>
+                            <button href="#" class="get-started" id="get-started1">Get Started &nbsp;<i
+                                    class="fa-solid fa-greater-than fa-xs"></i></button>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <hr class="hr-border">
+
+    <!-- footer starts here -->
+    <footer id="footer">
+        <!-- footer wrapper starts-->
+        <div class="footer-wrapper">
+            <!-- container starts -->
+            <div class="container">
+                <div class="footer-container">
+                    <p class="footer-call">Questions? Call <a href="#">000-800-919-1694</a></p>
+                </div>
+                <div class="footer-container">
+                    <div class="col-25">
+                        <ul class="footer-ul">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Speed Test</a></li>
+                            <li class="footer-lang">
+                                <div class="header-language">
+                                    <i class="fa-solid fa-globe fa-xs"></i>
+                                    <select name="language" id="language2">
+                                        <option value="english">English</option>
+                                        <option value="hindi">हिंदी</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>Netflix India, Clone By Sankeerth</li>
+                        </ul>
+                    </div>
+                    <div class="col-25">
+                        <ul class="footer-ul">
+                            <li><a href="#">Help Centre</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Cookie Preferences</a></li>
+                            <li><a href="#">Legal Notices</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-25">
+                        <ul class="footer-ul">
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Ways to Watch</a></li>
+                            <li><a href="#">Corporate Information</a></li>
+                            <li><a href="#">Only on Netflix</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-25">
+                        <ul class="footer-ul">
+                            <li><a href="#">Media Centre</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- container ends -->
+        </div>
+        <!-- footer wrapper ends -->
+    </footer>
+    <!-- footer ends here -->
+</body>
+
+</html>
