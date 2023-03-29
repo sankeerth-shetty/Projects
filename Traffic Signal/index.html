@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/css1.css">
-    <script src="../js/js1.js"></script>
+    <link rel="stylesheet" href="css/css1.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container1">
         <div class="row">
             <div class="col-25 cont1">
-                <a href="#" id="tgreen"><img src="../images/trafficGreen.png" alt="traffic green" class="trr"></a>
-                <a href="#" id="tyellow"><img src="../images/trafficYellow.png" alt="traffic yellow" class="trr"></a>
-                <a href="#" id="tred"><img src="../images/trafficRed.png" alt="traffic red" class="trr"></a>
+                <a href="#" id="tgreen"><img src="images/trafficGreen.png" alt="traffic green" class="trr"></a>
+                <a href="#" id="tyellow"><img src="images/trafficYellow.png" alt="traffic yellow" class="trr"></a>
+                <a href="#" id="tred"><img src="images/trafficRed.png" alt="traffic red" class="trr"></a>
             </div>
             <div class="col-75 cont2" id="cont2">
                 <h2 id="cont-head">Press the signal to start</h2>
             </div>
             <audio id="car-bgs" controls hidden autoplay>
-                <source src="../sound/car_sound.mp3" type="audio/mp3">
+                <source src="sound/car_sound.mp3" type="audio/mp3">
             </audio>
         </div>
     </div>
@@ -33,8 +32,9 @@
             </div>
         </div>
     </div>
-    <img src="../images/car.png" alt="car" class="car" id="car">
+    <img src="images/car.png" alt="car" class="car" id="car">
     <script>
+        alert("this project is not responsive and hence it may look messed up, continue if you still want to see or contact me to see project from my pc");
         let audio = document.getElementById("car-bgs");
 
         document.getElementById("tgreen").addEventListener("click", function () {
@@ -46,7 +46,7 @@
             document.getElementById("cont2").style.borderColor = "rgb(105, 68, 0)";
             document.getElementById("cont-head").style.color = "rgb(105, 68, 0)";
             document.getElementById("cont-head").innerText = "Signal Is Yellow : You Have To Wait!";
-            audio.src = "../sound/car_horn.mp3";
+            audio.src = "sound/car_horn.mp3";
             audio.play();
         });
 
@@ -59,7 +59,7 @@
             document.getElementById("cont2").style.borderColor = "rgb(119, 3, 3)";
             document.getElementById("cont-head").style.color = "rgb(119, 3, 3)";
             document.getElementById("cont-head").innerText = "Signal Is Red : You Have To Stop!";
-            audio.src = "../sound/car_horn.mp3";
+            audio.src = "sound/car_horn.mp3";
             audio.play();
         });
 
@@ -72,7 +72,7 @@
             document.getElementById("cont2").style.borderColor = "darkgreen";
             document.getElementById("cont-head").style.color = "darkgreen";
             document.getElementById("cont-head").innerText = "Signal Is Green : You Can Go!";
-            audio.src = "../sound/song.mp3";
+            audio.src = "sound/song.mp3";
             audio.play();
         });
     </script>
